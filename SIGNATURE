@@ -1,0 +1,61 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.22.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 b21d6e94d89553cc7b591feba24be7b43e44e78e ChangeLog
+SHA1 aa2deb570eb29d3e3676d7fec1eb68b697847e9a Config.eg
+SHA1 d200cb2049fec51da7ffd76409fe41706f7f9da3 Configure
+SHA1 e490bc603683c765c2cb29c029b6de894e8e5bd8 Hostname.pm.eg
+SHA1 13ab1258061ca62d46a7a06edd66bfd380aaaf4f MANIFEST
+SHA1 7bd9ab100f9cb476e656d8b75085c4c343b07cd0 Makefile.PL
+SHA1 3a938b86834091a41efd6e511ccf539277e234cb Net/Cmd.pm
+SHA1 95a36848855b11d1e27a4a93baf769a9e38d1e97 Net/Config.pm
+SHA1 bb397456ea8560df6bd6d9596d37b38368888aaa Net/Domain.pm
+SHA1 1d1587dffaacaca9b8fcb9d9f275bb88c4b4de86 Net/FTP.pm
+SHA1 f64a9ae2f93ea76b28756b7ee2b8113927adab4b Net/FTP/A.pm
+SHA1 75a5625dd1eec2ed70c35e11c98eb55192dbf130 Net/FTP/E.pm
+SHA1 354eab07ad5303d9969ba42e3947b4a67a768ced Net/FTP/I.pm
+SHA1 39b68fe77fddc5923bc3d764042c1e5e3fed33a9 Net/FTP/L.pm
+SHA1 470d9959ade0ac91977378c93ed47c6699da5fc4 Net/FTP/dataconn.pm
+SHA1 619fd6328797330e5b43e2c2428f90d210b039d6 Net/NNTP.pm
+SHA1 46a2ec553a58ffbed8bedc1f2292b89c916b7207 Net/Netrc.pm
+SHA1 315e1bb3f974e7376dc81d47875f9449384b519d Net/POP3.pm
+SHA1 08b997b597583b83e7e7c2127af291d9e8b8b741 Net/SMTP.pm
+SHA1 99e33b3deec0f443a80319f1e7f687b64361b24e Net/Time.pm
+SHA1 8fe4f1ae06f5c54e0ef9578db9e0f271902dd136 Net/libnetFAQ.pod
+SHA1 2a299ff66adc394d1d3d29e21dbbb57d702e98e7 README
+SHA1 f3053100bc18fd85c7500e8aa15e356581580724 demos/ftp
+SHA1 f9c06721fc0d81b271417359e663661fb1567354 demos/inetd
+SHA1 a1213d82892b4640b0bf071c69c6c1c0c6059dfa demos/nntp
+SHA1 a3082de1b2eb11159705f210ea27aa8170d81b42 demos/nntp.mirror
+SHA1 dfbc0d1e86c28ed04aa66b457c3a995a352f92b3 demos/pop3
+SHA1 80297b968a034470a276ae5541dc053e5b732ef0 demos/smtp.self
+SHA1 081d1ec3c91c43ff2e452427e8d8bac6d5096860 demos/time
+SHA1 70643cc5461c32ccd1febfbade2782a4642e7305 install-nomake
+SHA1 b667e4c7889072c5a302fa6500048fefa67384f9 t/config.t
+SHA1 7ee98f6d1b1a5359cb334b10637a9b2d39ef1e35 t/ftp.t
+SHA1 72e5c75d22246e04931d7168c20496613f6c845c t/hostname.t
+SHA1 2bc26046cf6b03838e5c52f00a90a9c62075d055 t/libnet_t.pl
+SHA1 dff9ac7d7f0d4e5258fdaf94a7df79f65767b3ce t/netrc.t
+SHA1 2199b4586879ebbcc88e5627f1d0af6a72d32bb8 t/nntp.t
+SHA1 c0efd8c7232dc37dd4066fab8f1e09e8cc97a841 t/require.t
+SHA1 992648302066ce9ead570386bed32841bac26314 t/smtp.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.2 (FreeBSD)
+
+iD8DBQE/cqu9R0BL4gbYw3QRAnFCAJ9SJKmKiRQVBVi2Ifm9/uOmV/qoFwCeNH1a
+KJg82wUMGljx20nfPF62QeM=
+=YX2v
+-----END PGP SIGNATURE-----
